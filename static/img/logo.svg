@@ -1,11 +1,5 @@
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="200" height="200" fill="white"/>
-<path d="M30 64L170 64" stroke="black" stroke-width="4"/>
-<path d="M19 120L42 120" stroke="black" stroke-width="4"/>
-<path d="M89 11L112 11" stroke="black" stroke-width="4"/>
-<path d="M100 11L100 119" stroke="black" stroke-width="4"/>
-<path d="M30 11L30 100" stroke="black" stroke-width="4"/>
-<path d="M170 11L170 123" stroke="black" stroke-width="4"/>
-<path d="M170 119C170 158.212 138.66 190 100 190C61.3401 190 30 158.212 30 119" stroke="black" stroke-width="4"/>
-<circle cx="99" cy="119" r="37" stroke="black" stroke-width="4"/>
+<rect width="200" height="200" fill="#203F5C"/>
+<path d="M64 187.34V176.408C72.3029 180.819 79.2537 183.024 84.8525 183.024C87.7851 183.024 90.4512 182.449 92.8507 181.298C95.2882 180.148 97.2116 178.23 98.6208 175.545C100.068 172.821 100.792 167.029 100.792 158.169V108.976H80.8534V100H112.332V158.457C112.332 167.969 111.247 174.816 109.076 178.997C106.943 183.178 103.934 186.4 100.049 188.663C96.1642 190.888 91.1939 192 85.1381 192C78.3587 192 71.3126 190.447 64 187.34Z" fill="white"/>
+<path d="M135.184 189.296V100H146.724V138.434H179.517V100H191V189.296H179.517V147.352H146.724V189.296H135.184Z" fill="white"/>
 </svg>
