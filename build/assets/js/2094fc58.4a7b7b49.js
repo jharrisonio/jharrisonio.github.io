@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearnings=self.webpackChunklearnings||[]).push([[568],{6554:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/saas","name":"saas","count":1,"permalink":"/blog/tags/saas"}')}}]);

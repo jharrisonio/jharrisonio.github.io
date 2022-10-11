@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>jharrison.io Blog</title>
+        <link>https://jharrison.io/blog</link>
+        <description>jharrison.io Blog</description>
+        <lastBuildDate>Tue, 19 Apr 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Providing quality support to SaaS customers]]></title>
+            <link>https://jharrison.io/blog/providing-quality-support-saas</link>
+            <guid>providing-quality-support-saas</guid>
+            <pubDate>Tue, 19 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introduction]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_mojV" id="introduction">Introduction<a class="hash-link" href="#introduction" title="Direct link to heading">​</a></h2><p>At work we currently use Slack as a support channel. Our customers are invited to private channels and can chat to us 24x7. This is fantastic for realtime troubleshooting and quick resolution of issues, but it doesn't scale well and can be a huge overhead on the engineering team. It is also difficult to put in place any kind of triaging of issues. We end up helping customers with anything, regardless of whether or not it's a platform issue or an implementation question. I've been tasked with setting up proper support channels for our customers that can scale to thousands of users and reduce the burden on our engineering team.</p><h3 class="anchor anchorWithStickyNavbar_mojV" id="key-requirements">Key Requirements<a class="hash-link" href="#key-requirements" title="Direct link to heading">​</a></h3><p>A successful implementation would achieve the following:</p><ul><li>Simple form for raising tickets, including custom field capture and screenshots</li><li>Help article suggestions to reduce number of tickets raised in the first place</li><li>Help centre articles &amp; categories</li><li>SLA management for first response and next reply times</li><li>Integration: Between support platform and engineering platform (Azure Devops)</li><li>Integration: Raise tickets from Slack messages</li><li>Integration: Notify Slack channels of new tickets and comments on tickets</li></ul><h3 class="anchor anchorWithStickyNavbar_mojV" id="choosing-a-platform">Choosing a Platform<a class="hash-link" href="#choosing-a-platform" title="Direct link to heading">​</a></h3><p>I didn't spend much time assessing the merits of different platforms. Our requirements are fairly basic, and I have experience with Zendesk already so it made sense to use it. I looked briefly at the various plans and feature limitations of each to make sure we wouldn't end up paying a fortune. The only feature that might push us into a higher bracket would be SLA management.</p>]]></content:encoded>
+            <category>saas</category>
+            <category>support</category>
+        </item>
+    </channel>
+</rss>

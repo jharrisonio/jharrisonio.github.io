@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearnings=self.webpackChunklearnings||[]).push([[535],{5641:function(s){s.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Providing quality support to SaaS customers","permalink":"/blog/providing-quality-support-saas"}]}')}}]);
