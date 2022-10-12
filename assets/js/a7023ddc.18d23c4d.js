@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearnings=self.webpackChunklearnings||[]).push([[713],{3457:e=>{e.exports=JSON.parse('[{"label":"sales","permalink":"/blog/tags/sales","count":1},{"label":"scraping","permalink":"/blog/tags/scraping","count":1},{"label":"puppeteer","permalink":"/blog/tags/puppeteer","count":1},{"label":"nodejs","permalink":"/blog/tags/nodejs","count":1}]')}}]);
