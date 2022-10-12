@@ -50,7 +50,7 @@ const config = {
         items: [
           {to: '/about', label: 'About', position: 'left'},
           {to: 'solutions', label: 'Solutions', position: 'left'},
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/jharrisonio/jharrisonio.github.io',
             label: 'GitHub',

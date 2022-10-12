@@ -20,3 +20,5 @@ While this site isn't intended to be a résumé I felt it necessary to list some
  - Design: I studied visual arts at school and while my design skills are limited I try to put them to good use every now and then
 
 
+## Contact
+Connect with me on [LinkedIn](https://www.linkedin.com/in/jharrisonau/)
