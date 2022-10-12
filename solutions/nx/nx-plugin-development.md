@@ -52,7 +52,7 @@ E2E test can be run with this command:
 `$ nx e2e [pluginName-e2e]`
 
 ### Publishing to NPM
-See the page on [Running a Local NPM Registry](/docs/node-js/nodejs)
+See the page on [Running a Local NPM Registry](/solutions/js-ts/npm)
 To easily increment the version number and perform a build, edit `project.json` to include targets like this:
 
 ```json

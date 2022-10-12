@@ -43,11 +43,10 @@ Create a file in the root of the project called `tsconfig.json`.
     }
 ```
 
-Configure Nodemon to run the NodeJS server. Update `package.json` with the following `type` and `start` keys:
+Configure Nodemon to run the NodeJS server. Update `package.json` with the following `start` command:
 
 ```json title="package.json"
     {
-        "type": "module",
         ...
         "scripts": {
             "start": "nodemon src/app.ts"
@@ -75,30 +74,4 @@ Paste the following code into `src/app.ts`.
     });
 ```
 
-Open up your browser to [http://localhost:3000/](http://localhost:3000/) and verify everything is working!
-
-### Debugging
-Use the following VSCode launch config to allow debugging of Typescript files directly without needing to compile.
-```json title=".vscode/launch.json"
-    {
-        // Use IntelliSense to learn about possible attributes.
-        // Hover to view descriptions of existing attributes.
-        // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
-        "version": "0.2.0",
-        "configurations": [
-            {
-                "name": "Typescript App",
-                "type": "node",
-                "request": "launch",
-                "runtimeExecutable": "node",
-                "runtimeArgs": ["--nolazy", "-r", "ts-node/register/transpile-only"],
-                "args": ["src/app.ts"],
-                "cwd": "${workspaceRoot}",
-                "internalConsoleOptions": "openOnSessionStart",
-                "skipFiles": [
-                    "<node_internals>/**"
-                ]
-            }
-        ]
-    }
-```
+Run `npm start ` and open up your browser to [http://localhost:3000/](http://localhost:3000/) and verify everything is working!
