@@ -3,7 +3,7 @@ sidebar_position: 1
 ---
 
 # Typescript Parsing
-This page documents a sample project that picks up a Typescript file, parses it and outputs the [AST](/solutions/software-architecture/abstract-syntax-trees).
+This page documents a sample project that picks up a Typescript file, parses it and outputs the [AST](/solutions/general/abstract-syntax-trees).
 
 ### Prerequisites
 1. [Basic NodeJS Project](/solutions/js-ts/basic-nodejs-setup) created
