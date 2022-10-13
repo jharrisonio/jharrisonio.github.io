@@ -20,3 +20,22 @@ Host work.github.com
     UseKeychain yes
     AddKeysToAgent yes
 ```
+
+### Testing
+To test everything is working properly, run these commands:
+
+`$ ssh -vT git@github.com`
+
+`$ ssh-vT git@work.github.com`
+
+Check that each command authenticates with the correct credentials. Below is an example output that shows authentication was made with user `jharrisonio`. 
+
+```
+...
+debug1: client_input_channel_req: channel 0 rtype exit-status reply 0
+Hi jharrisonio! You've successfully authenticated, but GitHub does not provide shell access.
+debug1: channel 0: free: client-session, nchannels 1
+Transferred: sent 3188, received 3120 bytes, in 0.2 seconds
+Bytes per second: sent 15774.7, received 15438.2
+debug1: Exit status 1
+```
