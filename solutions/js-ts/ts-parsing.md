@@ -6,7 +6,7 @@ sidebar_position: 1
 This page documents a sample project that picks up a Typescript file, parses it and outputs the [AST](/solutions/general/abstract-syntax-trees).
 
 ### Prerequisites
-1. [Basic NodeJS Project](/solutions/js-ts/basic-nodejs-setup) created
+1. [Basic NodeJS Project](/solutions/js-ts/minimal-ts-server) created
 2. Move `typescript` from a dev-dependency to a dependency
 3. Read about the [Typescript Compiler](/solutions/js-ts/ts-compiler)
 
