@@ -13,22 +13,25 @@ A sample project will be created called "Vast".
 
 ### Generate the workspace
 Call the create-nx-workspace CLI tool, give it a name and cd into the folder.
-`$ npx create-nx-workspace@latest vast && cd vast`  
-
-1. What to create in the new workspace = ts
-2. Set up distributed caching using Nx Cloud = No
+`$ npx create-nx-workspace@latest nx-test-workspace --preset=ts --nxCloud=false --packageManager=yarn && cd nx-test-workspace`  
 
 ### Adding an app to the workspace
 
 NX plugins are installed via NPM. A list of community plugins can be found [here](https://nx.dev/community#create-nx-plugin).  
-`$ npm i @nrwl/node`
+`$ npm i -D @nrwl/node`
+`$ yarn add -D @nrwl/node`
 
 Once installed, plugins can be called via the nx CLI tool.  
-`$ nx generate @nrwl/node:app my-app`
+`$ nx g @nrwl/node:app my-app`
 
+Libraries can also be generated:  
+`$ nx g @nrwl/js:lib my-lib`
+
+And they can be publishable:
+`$ nx g @nrwl/js:lib mylib --publishable --importPath=@myorg/mylib`
 
 ### Building an app
 Apps can be built by running this command from the monorepo root:  
-`$ nx build myapp`
+`$ nx run myapp:build`
 
 All built files are put into the `dist` folder in the root of the monorepo.

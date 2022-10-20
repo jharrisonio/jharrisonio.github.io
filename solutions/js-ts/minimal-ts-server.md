@@ -1,5 +1,5 @@
-# Basic NodeJS Project
-This page documents how to set up a basic NodeJS project, the starting point for many examples in this documentation.
+# Minimal Typescript Server
+This page documents how to set up a basic NodeJS project with Typescript and get it listening on a specific port.
 
 ### Prerequisites
 1. [NodeJS](https://nodejs.org/en/) installed
@@ -32,26 +32,28 @@ Set up a basic folder structure where `src` will be our source files, and `dist`
 Create a file in the root of the project called `tsconfig.json`.  
 
 ```json title="tsconfig.json"
-    {
-      "extends": "@tsconfig/node14/tsconfig.json",
-      "compilerOptions": {
-        "outDir": "dist",
-        "sourceMap": true
-      },
-      "include": ["src/**/*"],
-      "exclude": ["node_modules", "**/*.spec.ts"]
-    }
+{
+    "extends": "@tsconfig/node14/tsconfig.json",
+    "compilerOptions": {
+    "outDir": "dist",
+    "sourceMap": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.spec.ts"]
+}
 ```
 
 Configure Nodemon to run the NodeJS server. Update `package.json` with the following `start` command:
 
 ```json title="package.json"
-    {
-        ...
-        "scripts": {
-            "start": "nodemon src/app.ts"
-        }
+{
+    ...
+    "scripts": {
+        "build": "`npm bin`/tsc .",
+        "start": "node dist/app.js",
+        "start:dev": "nodemon src/app.ts"
     }
+}
 ```
 
 ### Creating an entrypoint
@@ -74,4 +76,4 @@ Paste the following code into `src/app.ts`.
     });
 ```
 
-Run `npm start ` and open up your browser to [http://localhost:3000/](http://localhost:3000/) and verify everything is working!
+Run `npm run start:dev` and open up your browser to [http://localhost:3000/](http://localhost:3000/) and verify everything is working!
