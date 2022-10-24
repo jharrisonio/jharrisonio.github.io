@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearnings=self.webpackChunklearnings||[]).push([[7939],{8988:e=>{e.exports=JSON.parse('{"label":"nx.dev","permalink":"/blog/tags/nx-dev","allTagsPath":"/blog/tags","count":1}')}}]);
