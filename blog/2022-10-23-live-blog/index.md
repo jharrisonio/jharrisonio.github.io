@@ -11,11 +11,13 @@ import Screenshot3 from '@site/static/img/blog/2022-10-23/Screen Shot 2022-10-23
 
 
 I'm about to resume working on a side project, a tool that helps developers build things faster. Before I start coding I feel I need to revisit the philosophy behind this tool and just get some clarification for myself. Sometimes it's really easy to get lost in the implementation and forget what you're actually building.
+<!--truncate-->
 
 ## The vision
 The guiding vision stems from my low-code experience. I've seen the incredible benefits this technology can bring. Unprecedented speed, baked-in quality control and as much automation as possible. I've also seen the lack of enthusiasm from developers who are used to writing code. The visual drag-and-drop interface is just so far removed from what they are used to that it creates a huge barrier. Another issue is accessibility. The good low-code platforms all cost a fortune, create vendor lock-in and hide away the details.
 
 While my ultimate goal is to create a full-scale, full-stack platform - eventually - I recognize that I have to start small and gradually build up functionality. 
+
 
 ## The goal
 The goal is simple; create a way of developing web apps that is faster, better and easier than the current status quo.
