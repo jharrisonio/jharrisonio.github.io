@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearnings=self.webpackChunklearnings||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Writing a cold outreach email","permalink":"/blog/2022-10-24-writing-cold-outreach-email"},{"title":"Writing an NX plugin for automating Nest and Prisma","permalink":"/blog/2022-10-23-nx-plugin-nest-prisma"}]}')}}]);

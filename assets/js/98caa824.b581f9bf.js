@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunklearnings=self.webpackChunklearnings||[]).push([[4569],{4489:a=>{a.exports=JSON.parse('{"label":"prisma","permalink":"/blog/tags/prisma","allTagsPath":"/blog/tags","count":2}')}}]);
