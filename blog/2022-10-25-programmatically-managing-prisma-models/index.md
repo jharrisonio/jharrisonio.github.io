@@ -96,7 +96,7 @@ Let me just recap my goal for my own sake...my head is still stuck in the deep d
 
 > Programmatically read/write/update the `schema.prisma` file
 
-I assumed I would do that by directly manipulating the file, and *then* apply the changes to the DB. This isn't possible with the path I've gone down. But flipping this on it's head, I could manipulate the *database* (using simple SQL scripts) and *retrospectively* update the schema file. 
+I assumed I would do that by directly manipulating the file, and *then* apply the changes to the DB. This isn't possible with the path I've gone down. But flipping this on its head, I could manipulate the *database* (using simple SQL scripts) and *retrospectively* update the schema file. 
 
 To be honest I hadn't even thought of doing that, and it might make sense. I'm out of time today, but I'm happy that I've still got 2 options:
 
