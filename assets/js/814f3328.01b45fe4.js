@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunklearnings=self.webpackChunklearnings||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Live blog: October 23, 2022","permalink":"/blog/2022-10-23-live-blog"}]}')}}]);
