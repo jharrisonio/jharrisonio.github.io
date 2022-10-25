@@ -1,13 +1,13 @@
 ---
-slug: 2022-10-23-live-blog
-title: "Live blog: October 23, 2022"
+slug: 2022-10-23-nx-plugin-nest-prisma
+title: "Writing an NX plugin for automating Nest and Prisma"
 authors: jharrison
 tags: [live, nx.dev, nestjs, prisma, angular, schematics]
 ---
 
-import Screenshot1 from '@site/static/img/blog/2022-10-23/Screen Shot 2022-10-23 at 3.28.57 pm.png';
-import Screenshot2 from '@site/static/img/blog/2022-10-23/Screen Shot 2022-10-23 at 4.53.18 pm.png';
-import Screenshot3 from '@site/static/img/blog/2022-10-23/Screen Shot 2022-10-23 at 5.47.13 pm.png';
+import Screenshot1 from './Screen Shot 2022-10-23 at 3.28.57 pm.png';
+import Screenshot2 from './Screen Shot 2022-10-23 at 4.53.18 pm.png';
+import Screenshot3 from './Screen Shot 2022-10-23 at 5.47.13 pm.png';
 
 
 I'm about to resume working on a side project, a tool that helps developers build things faster. Before I start coding I feel I need to revisit the philosophy behind this tool and just get some clarification for myself. Sometimes it's really easy to get lost in the implementation and forget what you're actually building.
