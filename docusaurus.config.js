@@ -54,7 +54,7 @@ const config = {
           {to: '/about', label: 'About', position: 'left'},
           {to: '/solutions', label: 'Solutions', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
-          {to: 'https://medium.com/@jharrison.au', label: 'Articles', position: 'left'},
+          {to: 'https://articles.jharrison.io/', label: 'Articles', position: 'left'},
           // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/jharrisonio/jharrisonio.github.io',
