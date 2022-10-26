@@ -23,6 +23,9 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: "GTM-MH8J3V9",
+        },
         docs: {
           path: 'solutions',
           routeBasePath: 'solutions',
