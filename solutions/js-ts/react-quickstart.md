@@ -1,4 +1,8 @@
-# Basic React Project
+---
+sidebar_position: 1
+---
+
+# Quickstart: React Project
 This page documents how to set up a basic React project, the starting point for many examples in this documentation.
 
 ### Prerequisites

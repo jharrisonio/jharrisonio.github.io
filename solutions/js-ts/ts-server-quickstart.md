@@ -1,4 +1,8 @@
-# Minimal Typescript Server
+---
+sidebar_position: 3
+---
+
+# Quickstart: Typescript Server
 This page documents how to set up a basic NodeJS project with Typescript and get it listening on a specific port.
 
 ### Prerequisites
@@ -6,15 +10,21 @@ This page documents how to set up a basic NodeJS project with Typescript and get
 
 ### Initialise the project
 Create an empty folder and navigate inside.  
-`$ mkdir ts-compiler-example && cd ts-compiler-example`  
+```sh
+$ mkdir ts-compiler-example && cd ts-compiler-example
+```
 
 Initialise a package.json file (defaults are fine).  
-`$ npm init`  
+```sh
+$ npm init
+```
 
 ### Install and configure dependencies
 
 Install a few dev dependencies.  
-`$ npm i --save-dev typescript @tsconfig/node14 @types/node nodemon ts-node`  
+```sh
+$ npm i --save-dev typescript @tsconfig/node14 @types/node nodemon ts-node
+```
 
 The dependencies installed in this step are as follows:  
 1. `typescript` Use for writing strongly typed code and compiling it to Javascript
@@ -27,7 +37,9 @@ We need to configure Typescript to compile our code, so we will create a `tsconf
 Documentation for this file can be found [here](https://www.typescriptlang.org/tsconfig).
 
 Set up a basic folder structure where `src` will be our source files, and `dist` is where Typescript will output the compiled Javascript files.  
-`$ mkdir src dist`
+```sh
+$ mkdir src dist
+```
 
 Create a file in the root of the project called `tsconfig.json`.  
 
